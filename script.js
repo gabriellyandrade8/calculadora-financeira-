@@ -2,6 +2,7 @@ let botao = document.getElementById('calcular');
 let resultado = document.getElementById('resultado');
 
 function Calcularvalores() {
+  alert('calculando');
   const valor = Number(document.getElementById("valor").value);
   let taxa = Number(document.getElementById("taxa").value);
   taxa /= 100.0;
